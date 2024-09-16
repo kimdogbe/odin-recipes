@@ -1,0 +1,13 @@
+.header {
+  background-color: antiquewhite;
+  color: rgb(93, 94, 206);
+}
+
+a:link {
+  font-size: 36px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(71, 136, 136);
+}
