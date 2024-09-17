@@ -1,11 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
   background-color: antiquewhite;
   color: rgb(93, 94, 206);
+  text-align: center;
+  width: 60%;
+  margin: 8px auto;
 }
 
 a:link {
   font-size: 36px;
   text-decoration: none;
+}
+
+.recipes {
+  width: 60%;
+  margin: 8px auto;
+}
+
+.recipe {
+  display: inline-block;
+  background-color: burlywood;
+  border: thick solid chocolate;
+  padding: 8px;
+  margin: 8px auto;
+}
+
+.recipe:hover {
+  background-color: cornflowerblue;
 }
 
 a:hover {
